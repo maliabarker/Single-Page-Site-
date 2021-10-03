@@ -10,35 +10,44 @@
     </head>
     <body>
         <main>
-            <nav id="nav_bar">
+            <!-- nav bar -->
+            <nav id="nav-bar">
                 <ul>
-                    <li>Beginnings in Physics</li>
+                    <li><a href="#beginnings">Beginnings in Physics</a></li>
+                    <!-- div elements to create dropdown menu -->
                     <div class="dropdown">
                         <div class="dropbtn">Work by Institution<i class="fa fa-angle-down"></i></div>
                         <div class="dropdown-content">
-                            <li>UC Berkely</li>
-                            <li>Princeton University</li>
-                            <li>University of São Paulo</li>
-                            <li>Israel Institute of Technology</li>
-                            <li>University of Bristol</li>
-                            <li>University of London's Birkbeck College</li>
+                            <div><a href="#phd">UC Berkely</a></div>
+                            <div><a href="#princeton">Princeton University</a></div>
+                            <div><a href="#sao-paulo">University of São Paulo</a></div>
+                            <div><a href="#israel">Israel Institute of Technology</a></div>
+                            <div><a href="#bristol">University of Bristol</a></div>
+                            <div><a href="#birkbeck">University of London's Birkbeck College</a></div>
                         </div>
                     </div>
-                    <li>Philsophical Work</li>
-                    <li>Final Work and Publications</li>
-                    <li>References</li>
+                    <li><a href="#philosophy">Philsophical Work</a></li>
+                    <li><a href="#final-works">Final Work and Publications</a></li>
+                    <li><a href="#references">References</a></li>
                 </ul>
             </nav>
 
             <section id="title-page">
                 <!-- section title -->
+                <img id="bohm-title-img" src="images/help.jpeg" alt="david bohm title pic" width="482px" height="400px"> 
                 <h1>The Life and Work of David Bohm</h1>
                 <!-- section content -->
-                <p>One of the most influential theoretical physicists of the 21st century</p>
-                <q>My spiritual son</q>
-                <p>- Albert Einstein</p>
-                <q>My science guru</q>
-                <p>- The 14th Dalai Lama</p>
+                <h2>One of the most influential theoretical physicists of the 21st century</h2>
+                <div id="title-quotes">
+                    <div id="quote-one">
+                        <q>My spiritual son</q>
+                        <p>- Albert Einstein</p>
+                    </div>
+                    <div id="quote-two">
+                        <q>My science guru</q>
+                        <p>- The 14th Dalai Lama</p>
+                    </div>
+                </div>
             </section>
 
             <section id="beginnings">
@@ -104,8 +113,8 @@
 
             <section id="england">
                 <h2>Work in England</h2>
-                <h3>The University of Bristol</h3>
-                <h3>University of London's Birkbeck College</h3>
+                <h3 id="bristol">The University of Bristol</h3>
+                <h3 id="birkbeck">University of London's Birkbeck College</h3>
 
             </section>
 

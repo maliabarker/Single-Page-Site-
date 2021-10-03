@@ -16,6 +16,10 @@ body {
     text-decoration: none;
 }
 
+#nav-bar a:hover {
+    color: #f5385b;
+}
+
 li a {
     color: #F7F7F7;
 }
@@ -35,7 +39,7 @@ li a {
 }
   
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    color: #f5385b;
 }
   
 .dropdown-content {
@@ -49,7 +53,8 @@ li a {
   
 .dropdown-content a {
     float: none;
-    color: black;
+    background-color: #2c2c2c;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;

@@ -6,7 +6,7 @@ body {
 
 #nav-bar {
     padding: 10px 0px 7px 0px;
-
+    background-color: #222222;
 }
   
 #nav-bar a {
@@ -27,6 +27,7 @@ li a {
 .dropdown {
     float: left;
     overflow: hidden;
+    cursor: pointer;
 }
   
 .dropdown .dropbtn {
@@ -63,6 +64,7 @@ li a {
   
 .dropdown-content a:hover {
     background-color: #ddd;
+    cursor: pointer;
 }
   
 .dropdown:hover .dropdown-content {
@@ -83,11 +85,15 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #bohm-title-img {
     margin-top: 40px;
     box-shadow: 0 0 20px ;
+    border-radius: 5px;
 }
 
 h1 {
@@ -111,3 +117,69 @@ h1 {
 #quote-two {
     padding: 30px 0px 40px 50px;
 }
+
+#phd h2 {
+    background-image: url(images/berk.jpeg);
+    background-size: cover;
+    padding: 90px;
+    min-height: 60px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #b5b0e4;
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px #25242f;
+}
+
+#princeton h2 {
+    background-image: url(images/princeton.jpeg);
+    background-size: cover;
+    padding: 90px;
+    min-height: 60px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #b5b0e4;
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px #25242f;
+}
+
+#sao-paulo h2 {
+    background-image: url(images/saopaulo.jpeg);
+    background-size: cover;
+    padding: 90px;
+    min-height: 60px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #b5b0e4;
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px #25242f;
+}
+
+#israel h2 {
+    background-image: url(images/technicon.jpg);
+    background-size: cover;
+    padding: 90px;
+    min-height: 60px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #b5b0e4;
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px #25242f;
+}
+
+#england h2 {
+    background-image: url(images/birkbeck.jpeg);
+    background-size: cover;
+    padding: 90px;
+    min-height: 60px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #b5b0e4;
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px #25242f;
+}
+

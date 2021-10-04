@@ -1,5 +1,5 @@
 body {
-    background-color: #222222;
+    background-color: #3b3b3b;
     color: aliceblue;
     font-family: Helvetica;
 }
@@ -191,7 +191,7 @@ h1 {
 }
 
 #phd-card-1, #phd-card-2 {
-    background-color: #3B3B3B;
+    background-color: #515151;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

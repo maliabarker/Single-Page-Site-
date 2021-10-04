@@ -183,3 +183,31 @@ h1 {
     text-shadow: 10px 10px 10px #25242f;
 }
 
+#phd-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#phd-card-1, #phd-card-2 {
+    background-color: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 100px 0px 100px;
+}
+
+#phd-card-1 img {
+    padding: 50px 90px 5px 90px;
+}
+
+#phd-card-2 img {
+    padding: 50px 50px 7px 50px;
+}
+
+#phd-card-1 p, #phd-card-2 p {
+    padding: 0px 20px 0px 20px;
+    line-height: 20px;
+}
+

@@ -4,6 +4,7 @@ body {
     font-family: Helvetica;
 }
 
+/* styling the nav bar  */
 #nav-bar {
     padding: 10px 0px 7px 0px;
     background-color: #222222;
@@ -78,6 +79,7 @@ ul {
     list-style-type: none;
 }
 
+/* styling the title page */
 #title-page {
     background-image: url(images/bg4.jpeg);
     background-size: cover;
@@ -118,6 +120,14 @@ h1 {
     padding: 30px 0px 40px 50px;
 }
 
+/* styling the beginning in physics section */
+#beginnings {
+    background-image: url(images/physics.jpeg);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* styling the berkeley/phd section */
 #phd h2 {
     background-image: url(images/berk.jpeg);
     background-size: cover;
@@ -131,6 +141,42 @@ h1 {
     text-shadow: 10px 10px 10px #25242f;
 }
 
+#phd-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    grid-gap: 2rem;
+}
+
+#phd-card-1, #phd-card-2 {
+    background-color: #515151;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#phd-card-1 {
+    margin: 0 0 0 20px;
+}
+
+#phd-card-2 {
+    margin: 0 20px 0 0;
+}
+
+#phd-card-1 img {
+    padding: 50px 90px 5px 90px;
+}
+
+#phd-card-2 img {
+    padding: 50px 50px 7px 50px;
+}
+
+#phd-card-1 p, #phd-card-2 p {
+    padding: 0px 20px 0px 20px;
+    line-height: 20px;
+}
+
+/* styling the princeton section */
 #princeton h2 {
     background-image: url(images/princeton.jpeg);
     background-size: cover;
@@ -144,6 +190,30 @@ h1 {
     text-shadow: 10px 10px 10px #25242f;
 }
 
+#princeton-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+#princeton-card-1, #princeton-card-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #515151;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#princeton-card-1 {
+    margin: 0 0 0 20px;
+}
+
+#princeton-card-2 {
+    margin: 0 20px 0 0;
+}
+
+/* styling the sao paulo section */
 #sao-paulo h2 {
     background-image: url(images/saopaulo.jpeg);
     background-size: cover;
@@ -155,6 +225,50 @@ h1 {
     color: #b5b0e4;
     font-size: 3rem;
     text-shadow: 10px 10px 10px #25242f;
+}
+
+#sp-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b"
+                         "c c";
+    grid-gap: 2rem;
+}
+
+#sp-card-1, #sp-card-2, #sp-card-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #515151;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sp-card-1 {
+    grid-area: a;
+}
+
+#sp-card-2 {
+    grid-area: b;
+}
+
+#sp-card-3 {
+    grid-area: c;
+}
+
+#sp-card-3-imgs {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+#sp-card-3-img-1 {
+    padding-right: 120px;
+    
+}
+
+#sp-card-3 q {
+    font-size: 1.25em;
 }
 
 #israel h2 {
@@ -181,33 +295,5 @@ h1 {
     color: #b5b0e4;
     font-size: 3rem;
     text-shadow: 10px 10px 10px #25242f;
-}
-
-#phd-article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-
-#phd-card-1, #phd-card-2 {
-    background-color: #515151;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 0px 100px 0px 100px;
-}
-
-#phd-card-1 img {
-    padding: 50px 90px 5px 90px;
-}
-
-#phd-card-2 img {
-    padding: 50px 50px 7px 50px;
-}
-
-#phd-card-1 p, #phd-card-2 p {
-    padding: 0px 20px 0px 20px;
-    line-height: 20px;
 }
 

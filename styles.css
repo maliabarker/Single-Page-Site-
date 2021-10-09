@@ -1,5 +1,5 @@
 body {
-    background-color: #3b3b3b;
+    background-color: #27241D;
     color: aliceblue;
     font-family: Helvetica;
 }
@@ -7,7 +7,7 @@ body {
 /* styling the nav bar  */
 #nav-bar {
     padding: 10px 0px 7px 0px;
-    background-color: #222222;
+    background-color: #27241D;
 }
   
 #nav-bar a {
@@ -120,190 +120,426 @@ h1 {
     padding: 30px 0px 40px 50px;
 }
 
-#vl {
-    position: absolute;
+/* styling the beginnings in physics title block */
+#beginnings-physics-block {
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
+}
+
+#dot {
+    height: 25px;
+    width: 25px;
+    background-color: #f5385b;
+    border-radius: 50%;
     display: inline-block;
-    color: black;
-    border: solid;
-    border-left: 2px;
-    height: 100%;
+}
+
+#dot-arrow {
+    margin-top: 4px;
+}
+
+
+#vl {
+    border-left: 6px solid #857F72;
+    height: 13400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
 }
 
 /* styling the beginning in physics section */
-#beginnings {
-    background-image: url(images/physics.jpeg);
+#beginnings h2 {
+    text-align: center;
+    position: relative;
+    background-color: #27241D;
+}
+
+#beginnings-article-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #504A40;
+    width: 25%;
     padding: 20px;
-    margin-top: 30px;
-    border-left: 2px black;
+    margin-left: 50px;
+}
+
+#beginnings-article-1 p {
+    line-height: 25px;
+}
+
+#beginnings-article-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #504A40;
+    width: 30%;
+    padding: 20px;
+    margin-left: 70%;
+    margin-right: 50px;
+    position: relative;
+    top: -150px;
+    right: 50px;
+    margin-bottom: -120px;
+}
+
+#beginnings-article-2 p {
+    line-height: 25px;
+}
+
+/* styling the berkeley/phd title block */
+#phd-title-block {
+    position: relative;
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
 }
 
 /* styling the berkeley/phd section */
 #phd h2 {
-    background-image: url(images/berk.jpeg);
-    background-size: cover;
-    padding: 90px;
-    min-height: 60px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #b5b0e4;
-    font-size: 3rem;
-    text-shadow: 10px 10px 10px #25242f;
+    text-align: center;
+    position: relative;
+    background-color: #27241D;
 }
 
-#phd-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-    grid-gap: 2rem;
+#first-year {
+    top: 100px;
 }
 
 #phd-card-1, #phd-card-2 {
-    background-color: #515151;
+    background-color: #423D33;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    position: relative;
 }
 
 #phd-card-1 {
-    margin: 0 0 0 20px;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
 }
 
 #phd-card-2 {
-    margin: 0 20px 0 0;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -300px;
+    margin-bottom: -270px;
 }
 
-#phd-card-1 img {
-    padding: 50px 90px 5px 90px;
-}
-
-#phd-card-2 img {
-    padding: 50px 50px 7px 50px;
-}
-
-#phd-card-1 p, #phd-card-2 p {
-    padding: 0px 20px 0px 20px;
-    line-height: 20px;
+/* styling the princeton title block */
+#princeton-block {
+    position: relative;
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
 }
 
 /* styling the princeton section */
 #princeton h2 {
-    background-image: url(images/princeton.jpeg);
-    background-size: cover;
-    padding: 90px;
-    min-height: 60px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #b5b0e4;
-    font-size: 3rem;
-    text-shadow: 10px 10px 10px #25242f;
+    text-align: center;
+    background-color: #27241D;
+    position: relative;
 }
 
-#princeton-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+#princeton-first-date {
+    top: 150px;
 }
 
 #princeton-card-1, #princeton-card-2 {
     display: flex;
     flex-direction: column;
-    background-color: #515151;
-    padding: 20px;
+    background-color: #423D33;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 #princeton-card-1 {
-    margin: 0 0 0 20px;
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: 25px;
+    margin-left: 50px;
 }
 
 #princeton-card-2 {
-    margin: 0 20px 0 0;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -300px;
+    margin-bottom: -270px;
+}
+
+/* styling the sao paulo title block */
+#sao-paulo-block {
+    position: relative;
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
 }
 
 /* styling the sao paulo section */
 #sao-paulo h2 {
-    background-image: url(images/saopaulo.jpeg);
-    background-size: cover;
-    padding: 90px;
-    min-height: 60px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #b5b0e4;
-    font-size: 3rem;
-    text-shadow: 10px 10px 10px #25242f;
+    text-align: center;
+    background-color: #27241D;
+    position: relative;
 }
 
-#sp-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "a b"
-                         "c c";
-    grid-gap: 2rem;
+#sp-first-date {
+    top: 150px;
 }
 
 #sp-card-1, #sp-card-2, #sp-card-3 {
     display: flex;
     flex-direction: column;
-    background-color: #515151;
+    background-color: #423D33;
     padding: 20px;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 #sp-card-1 {
-    grid-area: a;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
 }
 
 #sp-card-2 {
-    grid-area: b;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -400px;
+    margin-bottom: -270px;
 }
 
 #sp-card-3 {
-    grid-area: c;
-}
-
-#sp-card-3-imgs {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 40px;
-}
-
-#sp-card-3-img-1 {
-    padding-right: 120px;
-    
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -100px;
+    margin-bottom: -70px;
 }
 
 #sp-card-3 q {
     font-size: 1.25em;
+    text-align: center;
 }
 
+/* styling the israel title block  */
+#israel-block {
+    position: relative;
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
+}
+
+/* styling israel section content */
 #israel h2 {
-    background-image: url(images/technicon.jpg);
-    background-size: cover;
-    padding: 90px;
-    min-height: 60px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #b5b0e4;
-    font-size: 3rem;
-    text-shadow: 10px 10px 10px #25242f;
+    text-align: center;
+    background-color: #27241D;
+    position: relative;
 }
 
+#israel-first-date {
+    top: 120px;
+}
+
+#israel-second-date {
+    top: 100px;
+}
+
+#israel-card-1, #israel-card-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #423D33;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#israel-card-1 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+#israel-card-2 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -400px;
+    margin-bottom: -350px;
+}
+
+/* styling the england title block */
+#england-block {
+    position: relative;
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
+}
+
+/* styling the england section content */
 #england h2 {
-    background-image: url(images/birkbeck.jpeg);
-    background-size: cover;
-    padding: 90px;
-    min-height: 60px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #b5b0e4;
-    font-size: 3rem;
-    text-shadow: 10px 10px 10px #25242f;
+    text-align: center;
+    background-color: #27241D;
+    position: relative;
 }
 
+#england-date-1 {
+    top: 200px;
+}
+
+#england-date-2 {
+    top: 200px;
+}
+
+#england-date-3 {
+    top: 500px;
+}
+
+#england-date-4 {
+    top: 200px;
+}
+
+#england-date-5 {
+    top: 500px;
+}
+
+#england-date-6 {
+    top: 900px;
+}
+
+#england-card-1, #england-card-2, #england-card-3, #england-card-4, #england-card-5 {
+    display: flex;
+    flex-direction: column;
+    background-color: #423D33;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#england-card-1 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+#england-card-2 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -400px;
+    margin-bottom: -350px;
+}
+
+#england-card-3 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
+    top: -300px;
+}
+
+#england-card-4 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -550px;
+    margin-bottom: -350px;
+}
+
+#england-card-5 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
+    top: -500px;
+    margin-bottom: -450px;
+}
+
+/* styling the philosophy title block */
+#philosophy-block {
+    position: relative;
+    text-align: center;
+    background-color: #423D33;
+    padding: 50px;
+    text-align: center;
+}
+
+/* styling the philosophy section content */
+#philosophy h2 {
+    text-align: center;
+    background-color: #27241D;
+    position: relative;
+}
+
+#phil-date-1 {
+    top: 100px;
+}
+
+#phil-date-2 {
+    top: 200px;
+}
+
+#phil-card-1, #phil-card-2, #phil-card-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #423D33;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#phil-card-1 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+#phil-card-2 {
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 60%;
+    top: -400px;
+    margin-bottom: -350px;
+}
+
+#phil-card-3 {
+    width: 80%;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 100px;
+}
+
+#phil-card-3-imgs {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
